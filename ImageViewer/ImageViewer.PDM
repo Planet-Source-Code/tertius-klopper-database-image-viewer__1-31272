@@ -1,0 +1,117 @@
+[Root]
+Most Recent Package=Image Viewer
+
+
+[Package|Image Viewer|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\My Documents\Visual Studio Projects\ImageViewer\Package
+
+[Package|Image Viewer|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Image Viewer|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Image Viewer|Files Found]
+
+[Package|Image Viewer|Files Released]
+
+[Package|Image Viewer|Missing Dependency Information]
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=
+C:\WINDOWS\SYSTEM32\zlib.dll=
+
+[Package|Image Viewer|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\mscomctl.ocx=
+
+[Package|Image Viewer|Files Added]
+
+[Package|Image Viewer|Files Removed]
+
+[Package|Image Viewer|Files In Project]
+C:\My Documents\Visual Studio Projects\ImageViewer\ImageViewer.exe=Yes
+C:\WINDOWS\SYSTEM\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\asycfilt.dll=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM32\zlib.dll=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\WINDOWS\SYSTEM\MSBIND.DLL=Yes
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\mscomctl.ocx=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\DBLIST32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSHFLXGD.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Image Viewer|Configure Registry Files]
+Applicable=No
+
+[Package|Image Viewer|Configure Remote Servers]
+Applicable=No
+
+[Package|Image Viewer|Install Locations]
+C:\My Documents\Visual Studio Projects\ImageViewer\ImageViewer.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\zlib.dll=$(WinSysPath)
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\SYSTEM\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSHFLXGD.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Image Viewer|Configure Shared Files]
+Applicable=Yes
+C:\My Documents\Visual Studio Projects\ImageViewer\ImageViewer.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Image Viewer|Distribution]
+Type=single
+Size=1.44 MB
+Title=Image Viewer
+
+[Package|Image Viewer|IconGroups]
+Group0=Image Viewer
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Image Viewer|Image Viewer]
+Icon1=ImageViewer.exe
+Title1=Image Viewer
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Image Viewer|Package]
+PackageFolder=C:\My Documents\Visual Studio Projects\ImageViewer\Package
+ProjectFolder=C:\My Documents\Visual Studio Projects\ImageViewer
+ServerSideCab=
+File1=C:\My Documents\Visual Studio Projects\ImageViewer\Package\setup.exe
+File2=C:\My Documents\Visual Studio Projects\ImageViewer\Package\Setup.Lst
+File3=C:\My Documents\Visual Studio Projects\ImageViewer\Package\ImageViewer.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
